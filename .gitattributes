@@ -1,0 +1,2 @@
+dados_github/** filter=lfs diff=lfs merge=lfs -text
+dados/** filter=lfs diff=lfs merge=lfs -text

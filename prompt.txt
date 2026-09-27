@@ -1,0 +1,205 @@
+Eu preciso que você faça esse trabalho, deve ser feito em um único arquivo .ipynb com os códigos, textos, gráficos, tudo!!
+Analise todas as pastas e arquivos necessários, não modifique nada que está na pasta “dados”, se for preciso, copie para outro lugar e modifique la. Você tem permissão para tudo, não precisa me perguntar nada, apenas faça de forma perfeita e tome decisões quando precisar.
+Título principal
+Relação entre Desenvolvimento Econômico, Condições Educacionais e Desempenho dos Participantes do ENEM nos Municípios Brasileiros: Uma Análise Longitudinal de 2019 a 2023
+O título fica mais amplo que o anterior e permite incorporar PIB, renda, estrutura econômica, infraestrutura escolar, participação e redação.
+
+1. Problema de pesquisa
+Como fatores econômicos, sociais e educacionais dos municípios brasileiros estão associados ao desempenho e à participação dos estudantes no ENEM entre 2019 e 2023, e de que maneira essas relações diferem entre as áreas do conhecimento e a redação?
+Essa pergunta permite que vocês não fiquem presos apenas a:
+PIB → nota ENEM
+e estudem:
+Economia → participação → desempenho → redação → diferenças regionais → evolução temporal.
+
+2. Objetivo geral
+Investigar a associação entre características econômicas, sociais e educacionais dos municípios brasileiros e o desempenho e a participação dos estudantes no ENEM entre 2019 e 2023, considerando as diferentes áreas do conhecimento, o desempenho na redação, as diferenças regionais e a evolução temporal.
+
+3. Hipóteses
+A — Desenvolvimento econômico
+H1 — PIB per capita
+Municípios com maior PIB per capita apresentam maiores médias de desempenho entre os participantes do ENEM.
+H2 — Crescimento econômico
+Municípios que apresentam maior crescimento do PIB per capita entre 2019 e 2023 apresentam maior evolução no desempenho médio dos participantes do ENEM.
+H3 — PIB e participação
+Municípios com maior PIB per capita apresentam maior taxa de participação no ENEM em relação à população potencialmente participante.
+H4 — PIB e desigualdade de desempenho
+Municípios com diferentes níveis de desenvolvimento econômico apresentam diferenças na dispersão das notas dos participantes do ENEM.
+
+4. Renda — uma hipótese importante
+O PIB municipal não necessariamente representa a renda efetivamente disponível para a população.
+H5 — Renda versus desempenho
+Municípios com maior rendimento domiciliar per capita apresentam maiores médias de desempenho dos participantes do ENEM.
+H6 — PIB versus renda
+A associação entre rendimento domiciliar per capita e desempenho no ENEM difere da associação observada entre PIB per capita e desempenho no ENEM.
+Essa é uma hipótese particularmente interessante porque permite comparar:
+riqueza produzida no município
+versus
+renda disponível para os moradores.
+
+5. Hipóteses por área do ENEM
+Aqui a pesquisa fica muito mais rica.
+H7 — Matemática
+A associação entre desenvolvimento econômico municipal e desempenho em Matemática é positiva.
+H8 — Linguagens
+A associação entre desenvolvimento econômico municipal e desempenho em Linguagens é positiva.
+H9 — Ciências Humanas
+A associação entre desenvolvimento econômico municipal e desempenho em Ciências Humanas é positiva.
+H10 — Ciências da Natureza
+A associação entre desenvolvimento econômico municipal e desempenho em Ciências da Natureza é positiva.
+H11 — Diferenças entre áreas
+A intensidade da associação entre desenvolvimento econômico e desempenho varia entre as diferentes áreas avaliadas pelo ENEM.
+Essa última é melhor do que simplesmente fazer cinco correlações, porque vocês podem comparar os coeficientes.
+
+6. Hipóteses específicas para a REDAÇÃO
+A redação não deve ser tratada simplesmente como mais uma das quatro provas objetivas.
+H12 — Desenvolvimento econômico e redação
+Municípios com maior PIB per capita apresentam maiores médias de desempenho na redação do ENEM.
+H13 — Renda e redação
+O rendimento domiciliar per capita municipal apresenta associação positiva com a nota média de redação dos participantes do ENEM.
+H14 — Redação versus provas objetivas
+A associação entre indicadores econômicos municipais e desempenho na redação apresenta intensidade diferente daquela observada nas provas objetivas do ENEM.
+Isso é muito interessante.
+Vocês poderiam comparar:
+PIB → Matemática
+PIB → Linguagens
+PIB → Humanas
+PIB → Natureza
+PIB → Redação
+
+7. Uma hipótese ainda mais interessante sobre redação
+Analisar a distribuição das notas.
+Por exemplo:
+H15 — Desigualdade na redação
+Municípios com menores indicadores socioeconômicos apresentam maior dispersão nas notas de redação entre os participantes do ENEM.
+Isso permitiria verificar não apenas:
+"qual município tem maior média?"
+mas também:
+"em quais municípios existe maior desigualdade de desempenho entre os participantes?"
+
+8. Redação e notas máximas
+H16 — Alta performance na redação
+Municípios com maiores indicadores econômicos apresentam maior proporção de participantes com desempenho elevado na redação do ENEM.
+Vocês poderiam criar, por exemplo, uma variável:
+% de participantes com redação ≥ determinado limite
+desde que o limite seja metodologicamente justificado.
+
+9. Participação no ENEM
+Não olhar somente para quem fez a prova é importante.
+H17 — Participação
+Municípios com melhores indicadores econômicos apresentam maior participação relativa no ENEM.
+H18 — Participação e desempenho
+Municípios com maior participação relativa no ENEM apresentam diferenças no desempenho médio dos participantes.
+H19 — Evolução da participação
+A evolução da participação no ENEM entre 2019 e 2023 varia de acordo com o nível de desenvolvimento econômico municipal.
+
+10. Estrutura econômica
+O PIB pode ser dividido por setores.
+H20 — Indústria
+Municípios com maior participação da indústria na atividade econômica apresentam diferenças no desempenho médio dos participantes do ENEM.
+H21 — Serviços
+A participação do setor de serviços na economia municipal apresenta associação com o desempenho dos participantes do ENEM.
+H22 — Agropecuária
+A participação da agropecuária na economia municipal apresenta associação distinta com o desempenho dos participantes do ENEM.
+H23 — Estrutura econômica e áreas
+A associação entre estrutura econômica municipal e desempenho varia de acordo com a área do conhecimento avaliada.
+
+11. Educação — Censo Escolar
+Aqui entra o Censo Escolar.
+Analisar:
+matrículas no Ensino Médio;
+número de escolas;
+docentes;
+infraestrutura;
+internet;
+laboratório de informática;
+biblioteca;
+dependências;
+rede pública/privada.
+O próprio projeto já prevê o Censo Escolar como uma base complementar para 2019–2023.
+H24 — Infraestrutura
+Municípios com maior disponibilidade de infraestrutura educacional apresentam maior desempenho médio dos participantes do ENEM.
+H25 — Infraestrutura e redação
+A disponibilidade de infraestrutura educacional está positivamente associada ao desempenho médio na redação do ENEM.
+H26 — Infraestrutura e Matemática
+A disponibilidade de infraestrutura educacional está associada ao desempenho em Matemática dos participantes do ENEM.
+
+12. Ensino público e privado
+H27
+A associação entre características econômicas municipais e desempenho no ENEM varia de acordo com o contexto educacional público ou privado.
+Aqui precisa haver bastante cuidado metodológico para não transformar associação em causalidade.
+
+13. Aprovação, reprovação e abandono
+Com as taxas de rendimento escolar:
+H28 — Aprovação
+Municípios com maiores taxas de aprovação no Ensino Médio apresentam maiores médias de desempenho entre os participantes do ENEM.
+H29 — Abandono
+Municípios com maiores taxas de abandono escolar apresentam menores médias de desempenho entre os participantes do ENEM.
+H30 — Rendimento escolar e redação
+Municípios com melhores indicadores de rendimento escolar apresentam maiores médias de redação no ENEM.
+
+14. Hipóteses regionais
+H31
+A relação entre desenvolvimento econômico e desempenho no ENEM varia entre as regiões brasileiras.
+Comparar:
+Norte
+Nordeste
+Centro-Oeste
+Sudeste
+Sul
+H32 — Redação regional
+A associação entre indicadores econômicos municipais e desempenho na redação apresenta diferenças entre as regiões brasileiras.
+Isso pode gerar resultados muito interessantes.
+
+15. Hipóteses temporais — 2019 a 2023
+Vocês têm cinco anos, então vale explorar a evolução.
+H33
+O desempenho médio dos participantes do ENEM apresenta trajetórias distintas entre municípios com diferentes níveis de desenvolvimento econômico entre 2019 e 2023.
+H34 — Redação ao longo do tempo
+A evolução das notas médias de redação entre 2019 e 2023 difere entre municípios com diferentes níveis de desenvolvimento econômico.
+H35 — Pandemia
+A evolução do desempenho dos participantes do ENEM entre 2019 e 2023 apresenta alterações distintas de acordo com as características econômicas e educacionais dos municípios.
+Aqui vocês precisam tratar a pandemia como contexto temporal, não afirmar antecipadamente que ela causou determinado resultado.
+
+16. Uma hipótese que eu acho muito interessante
+Em vez de olhar somente para o município mais rico ou mais pobre, criar faixas/quartis de desenvolvimento:
+Q1 — menor PIB per capita
+Q2
+Q3
+Q4 — maior PIB per capita
+Então:
+H36
+A trajetória do desempenho dos participantes do ENEM entre 2019 e 2023 apresenta diferenças entre os grupos de municípios classificados segundo seu nível de desenvolvimento econômico.
+E fazer isso também para a redação:
+H37
+A trajetória das notas médias de redação entre 2019 e 2023 apresenta diferenças entre os grupos de municípios classificados segundo seu nível de desenvolvimento econômico.
+
+17. Como eu deixaria a pesquisa organizada
+Em vez de jogar 37 hipóteses no trabalho, eu criaria 8 grandes eixos de investigação:
+Eixo
+O que investigar
+1. Economia
+PIB e PIB per capita
+2. Renda
+Rendimento domiciliar
+3. ENEM geral
+Média das provas
+4. Áreas
+Matemática, Linguagens, Humanas e Natureza
+5. Redação
+Média, distribuição e alta performance
+6. Participação
+Participantes/população
+7. Educação
+Infraestrutura, aprovação, abandono etc.
+8. Região e tempo
+Regiões + evolução 2019–2023
+
+Assim o projeto fica amplo sem ficar desorganizado.
+
+E eu mudaria o foco central para isto
+Em vez de a pesquisa ser simplesmente:
+"PIB influencia nota do ENEM?"
+ela passa a investigar:
+"Como as condições econômicas, sociais e educacionais dos municípios brasileiros se relacionam com a participação e o desempenho dos estudantes no ENEM, considerando diferentes áreas do conhecimento, a redação, as diferenças regionais e a evolução entre 2019 e 2023?"
+Isso dá muito mais espaço para vocês encontrarem resultados interessantes.
+E a redação pode virar um dos eixos centrais, com análises próprias, em vez de simplesmente entrar como uma quinta nota na média. O material original já recomenda manter as cinco áreas separadas justamente para verificar se a associação econômica muda entre elas.

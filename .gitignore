@@ -1,0 +1,8 @@
+# Os CSVs 2019 e 2020 têm cópias gzip em dados_github/ para caber no LFS.
+**/MICRODADOS_ENEM_2019.csv
+**/MICRODADOS_ENEM_2020.csv
+
+# Arquivos temporários de execução/editor
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
